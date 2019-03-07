@@ -51,11 +51,13 @@
 
   <!-- Header -->
   <header class="masthead">
+    <canvas id="canvas-background" style="position:fixed; top:0;left:0; z-index: 0"></canvas>
     <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+      <div class="mx-auto text-center" style="z-index: 1">
+        <img src="img/beep-boop-logo.png" class="img-fluid" alt="" style="width:300px">
+        <h1 class="mx-auto my-0 text-uppercase">Beep Boop</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">The Commuter's Carbon Market</h2>
+        <a class="js-scroll-trigger" href="#about"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
       </div>
     </div>
   </header>
@@ -222,6 +224,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+
+  <script src="js/landing-page-animate.js"></script>
 
 </body>
 
