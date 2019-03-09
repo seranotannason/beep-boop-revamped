@@ -1475,7 +1475,7 @@ function isInArray(value, array) {
 window.pJSDom = [];
 
 window.particlesJS = function(tag_id, params){
-
+  console.log("PARTICLES JS IS RUNNING");
   //console.log(params);
 
   /* no string id? so it's object params, and set the id with default id */

@@ -139,8 +139,8 @@
 }
 
 .btn {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
   padding: 1.25rem 2rem;
   font-family: 'Varela Round';
   font-size: 80%;
@@ -167,7 +167,8 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
@@ -316,4 +317,18 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+#works {
+  width: 75%;
+  position: relative;
+  z-index: 1
+}
+
+#dashboard {
+  margin-bottom: 5%;
+  font-size: 120%;
+  border: 2px solid rgba(255,255,255,0.5);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
